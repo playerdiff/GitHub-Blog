@@ -1,0 +1,43 @@
+/* Profile.module.css */
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .followers {
+    color: #666;
+  }
+  
+  .bio {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .profileContainer {
+      padding: 10px;
+    }
+  
+    .name {
+      font-size: 20px;
+    }
+  }
+  

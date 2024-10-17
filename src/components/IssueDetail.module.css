@@ -1,0 +1,23 @@
+/* IssueDetail.module.css */
+.issueDetailContainer {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0366d6; /* Cor do link do GitHub */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

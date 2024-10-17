@@ -1,0 +1,29 @@
+/* Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #24292e; /* Cor do cabeçalho */
+    color: #ffffff; /* Cor do texto */
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navLink {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
